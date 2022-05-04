@@ -1,0 +1,18 @@
+import setuptools
+
+setuptools.setup (
+  include_package_data = True,
+  name = 'mycalc_castlecode',
+  version = '0.0.1', 
+  description = 'oss-dev my calculator castlecode',
+  author = 'Castlemincode',
+  author_email = 'dkstjd3839@gmail.com',
+  url = "https://github.com/Castlemincode/testoutput/", 
+  install_requires = ['pytest'],
+  long_description = 'oss-dev calculator python module',
+  long_description_content_type = 'text/markdown',
+  classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+  ],
+)
